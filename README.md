@@ -3,7 +3,7 @@
 
 ## Table of Contents
 1. [Implementation details](README.md#implementation-details)
-2. [Test Results](README.md#test-results)
+2. [Test of Format](README.md#test-of-format)
 3. [My input files](README.md#my-input-files)
 4. [My output file](README.md#my-output-file)
 
