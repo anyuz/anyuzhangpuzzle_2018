@@ -29,16 +29,20 @@ I picked three sample datasets at one day in 2003, 2011, 2017.
 
 ## Optimization of sessionization.py 
 
+From the details of challange I know the duration is a important value to check if an IP is in a session of a single web page document request. The value will range from 1 to 86,400 (i.e., one second to 24 hours)
 
-    From the details of challange I know the duration is a important value to check if an IP is in a session of a single web page document request. The value will range from 1 to 86,400 (i.e., one second to 24 hours)
-    In the given test example, the duration time is 2 seconds. By increasing the duration time : 2 seconds , 3seconds and 100 seconds, the computing time of output file increased also. 
-    With a large dataset in 2017, which size is 2.78GB, the computating time is as long as more than 20 mins in the first version of my sessionization.py. It is too long to be a applicable program. So I made changes like following:
-    
+In the given test example, the duration time is 2 seconds. By increasing the duration time : 2 seconds , 3seconds and 100 seconds, the computing time of output file increased also. 
+
+With a large dataset in 2017, which size is 2.78GB, the computating time is as long as more than 20 mins in the first version of my sessionization.py. It is too long to be a applicable program. So I made changes like following:
+
+
+
+
     For checking the performence of optimized sessionization method, I used the 455.9MB dataset in 06/29/2011 with 100s duration time. 
     original                          optimized 
     real	6m3.742s                  real	3m17.475s
     user	6m0.968s                  real	3m17.475s
-    sys	0m1.282s                      sys	0m1.084s
+    sys	0m1.282s                  sys	0m1.084s
 
 
 
